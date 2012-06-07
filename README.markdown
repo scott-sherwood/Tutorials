@@ -1,7 +1,7 @@
 iOS Tutorials
 =========
 
-by Scott Sherwood.
+by Scott Sherwood. 
 
 
 <ul>

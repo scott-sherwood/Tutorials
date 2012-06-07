@@ -18,7 +18,7 @@ In all cases, you must include a credit mentioning Scott Sherwood as the origina
 Scott Sherwood is not liable for anything you do with the code, no matter what. So be sensible.
 You can’t use the name Scott Sherwood or any other related marks to promote your products based on the code.
 If you agree to all of that, go ahead and use the source. Otherwise, don’t!
-
+ 
 <h2>Suggested Attribution Format</h2>
 
 The license requires that you give credit to Scott Sherwood, as the original author of any of our source that you use. The placement and format of the credit is up to you, but we prefer the credit to be in the software’s "About" window or similar location. Alternatively, you could put the credit in a list of acknowledgements within the software, in the software’s documentation, or on the web page for the software. The suggested format for the attribution is:
