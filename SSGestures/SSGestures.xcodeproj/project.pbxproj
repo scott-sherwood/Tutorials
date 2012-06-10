@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2107468144E3F21008F2A1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2107467144E3F21008F2A1A /* UIKit.framework */; };
+		D210746A144E3F21008F2A1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2107469144E3F21008F2A1A /* Foundation.framework */; };
+		D210746C144E3F21008F2A1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D210746B144E3F21008F2A1A /* CoreGraphics.framework */; };
+		D2D03C281584CCDF00D92E06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D03C1F1584CCDF00D92E06 /* main.m */; };
+		D2D03C291584CCDF00D92E06 /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D03C211584CCDF00D92E06 /* SSAppDelegate.m */; };
+		D2D03C2A1584CCDF00D92E06 /* SSGestures-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2D03C221584CCDF00D92E06 /* SSGestures-Info.plist */; };
+		D2D03C2B1584CCDF00D92E06 /* SSMovableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D03C251584CCDF00D92E06 /* SSMovableViewController.m */; };
+		D2D03C2C1584CCDF00D92E06 /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D03C271584CCDF00D92E06 /* SSViewController.m */; };
+		D2D03C301584CCEB00D92E06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2D03C2E1584CCEB00D92E06 /* InfoPlist.strings */; };
+		D2D03C331584CD1000D92E06 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D03C311584CD1000D92E06 /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2107463144E3F21008F2A1A /* SSGestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSGestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2107467144E3F21008F2A1A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D2107469144E3F21008F2A1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D210746B144E3F21008F2A1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D2D03C1F1584CCDF00D92E06 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SSGestures/main.m; sourceTree = SOURCE_ROOT; };
+		D2D03C201584CCDF00D92E06 /* SSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSAppDelegate.h; path = SSGestures/SSAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		D2D03C211584CCDF00D92E06 /* SSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSAppDelegate.m; path = SSGestures/SSAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		D2D03C221584CCDF00D92E06 /* SSGestures-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SSGestures-Info.plist"; path = "SSGestures/SSGestures-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D2D03C231584CCDF00D92E06 /* SSGestures-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SSGestures-Prefix.pch"; path = "SSGestures/SSGestures-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		D2D03C241584CCDF00D92E06 /* SSMovableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSMovableViewController.h; path = SSGestures/SSMovableViewController.h; sourceTree = SOURCE_ROOT; };
+		D2D03C251584CCDF00D92E06 /* SSMovableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSMovableViewController.m; path = SSGestures/SSMovableViewController.m; sourceTree = SOURCE_ROOT; };
+		D2D03C261584CCDF00D92E06 /* SSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSViewController.h; path = SSGestures/SSViewController.h; sourceTree = SOURCE_ROOT; };
+		D2D03C271584CCDF00D92E06 /* SSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSViewController.m; path = SSGestures/SSViewController.m; sourceTree = SOURCE_ROOT; };
+		D2D03C2F1584CCEB00D92E06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = SSGestures/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		D2D03C321584CD1000D92E06 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = SSGestures/en.lproj/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2107460144E3F21008F2A1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2107468144E3F21008F2A1A /* UIKit.framework in Frameworks */,
+				D210746A144E3F21008F2A1A /* Foundation.framework in Frameworks */,
+				D210746C144E3F21008F2A1A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2107458144E3F21008F2A1A = {
+			isa = PBXGroup;
+			children = (
+				D210746D144E3F21008F2A1A /* SSGestures */,
+				D2107466144E3F21008F2A1A /* Frameworks */,
+				D2107464144E3F21008F2A1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2107464144E3F21008F2A1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2107463144E3F21008F2A1A /* SSGestures.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2107466144E3F21008F2A1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2107467144E3F21008F2A1A /* UIKit.framework */,
+				D2107469144E3F21008F2A1A /* Foundation.framework */,
+				D210746B144E3F21008F2A1A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D210746D144E3F21008F2A1A /* SSGestures */ = {
+			isa = PBXGroup;
+			children = (
+				D2D03C201584CCDF00D92E06 /* SSAppDelegate.h */,
+				D2D03C211584CCDF00D92E06 /* SSAppDelegate.m */,
+				D2D03C241584CCDF00D92E06 /* SSMovableViewController.h */,
+				D2D03C251584CCDF00D92E06 /* SSMovableViewController.m */,
+				D2D03C261584CCDF00D92E06 /* SSViewController.h */,
+				D2D03C271584CCDF00D92E06 /* SSViewController.m */,
+				D2D03C311584CD1000D92E06 /* MainStoryboard.storyboard */,
+				D210746E144E3F21008F2A1A /* Supporting Files */,
+			);
+			name = SSGestures;
+			path = GesturesDemo;
+			sourceTree = "<group>";
+		};
+		D210746E144E3F21008F2A1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2D03C221584CCDF00D92E06 /* SSGestures-Info.plist */,
+				D2D03C2E1584CCEB00D92E06 /* InfoPlist.strings */,
+				D2D03C1F1584CCDF00D92E06 /* main.m */,
+				D2D03C231584CCDF00D92E06 /* SSGestures-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2107462144E3F21008F2A1A /* SSGestures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2107481144E3F21008F2A1A /* Build configuration list for PBXNativeTarget "SSGestures" */;
+			buildPhases = (
+				D210745F144E3F21008F2A1A /* Sources */,
+				D2107460144E3F21008F2A1A /* Frameworks */,
+				D2107461144E3F21008F2A1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSGestures;
+			productName = GesturesDemo;
+			productReference = D2107463144E3F21008F2A1A /* SSGestures.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D210745A144E3F21008F2A1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Scott Sherwood";
+			};
+			buildConfigurationList = D210745D144E3F21008F2A1A /* Build configuration list for PBXProject "SSGestures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D2107458144E3F21008F2A1A;
+			productRefGroup = D2107464144E3F21008F2A1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2107462144E3F21008F2A1A /* SSGestures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2107461144E3F21008F2A1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D03C2A1584CCDF00D92E06 /* SSGestures-Info.plist in Resources */,
+				D2D03C301584CCEB00D92E06 /* InfoPlist.strings in Resources */,
+				D2D03C331584CD1000D92E06 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D210745F144E3F21008F2A1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D03C281584CCDF00D92E06 /* main.m in Sources */,
+				D2D03C291584CCDF00D92E06 /* SSAppDelegate.m in Sources */,
+				D2D03C2B1584CCDF00D92E06 /* SSMovableViewController.m in Sources */,
+				D2D03C2C1584CCDF00D92E06 /* SSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2D03C2E1584CCEB00D92E06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2D03C2F1584CCEB00D92E06 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D2D03C311584CD1000D92E06 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2D03C321584CD1000D92E06 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D210747F144E3F21008F2A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D2107480144E3F21008F2A1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2107482144E3F21008F2A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSGestures/SSGestures-Prefix.pch";
+				INFOPLIST_FILE = "SSGestures/SSGestures-Info.plist";
+				PRODUCT_NAME = SSGestures;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D2107483144E3F21008F2A1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSGestures/SSGestures-Prefix.pch";
+				INFOPLIST_FILE = "SSGestures/SSGestures-Info.plist";
+				PRODUCT_NAME = SSGestures;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D210745D144E3F21008F2A1A /* Build configuration list for PBXProject "SSGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D210747F144E3F21008F2A1A /* Debug */,
+				D2107480144E3F21008F2A1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2107481144E3F21008F2A1A /* Build configuration list for PBXNativeTarget "SSGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2107482144E3F21008F2A1A /* Debug */,
+				D2107483144E3F21008F2A1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D210745A144E3F21008F2A1A /* Project object */;
+}

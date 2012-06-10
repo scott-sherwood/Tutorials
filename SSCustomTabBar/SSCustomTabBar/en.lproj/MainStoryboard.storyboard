@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11E53" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1179"/>
+    </dependencies>
+    <scenes>
+        <!--Custom Tab Bar View Controller-->
+        <scene sceneID="4">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
+                <viewController id="2" customClass="SSCustomTabBarViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="background.png" id="Ox1-Wg-7jt">
+                                <rect key="frame" x="0.0" y="0.0" width="88" height="748"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" id="6zZ-OD-8w8">
+                                <rect key="frame" x="0.0" y="0.0" width="88" height="748"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eQv-fa-o6e">
+                                        <rect key="frame" x="21" y="31" width="46" height="56"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" image="home.png">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" image="home_highlighted.png"/>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="eRX-Ra-QoM" kind="custom" identifier="HomeSegue" customClass="SSCustomTabBarSegue" id="FWq-R1-L2H"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8NA-Ri-PRA">
+                                        <rect key="frame" x="21" y="123" width="46" height="56"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" image="cogs.png">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" image="cogs_highlighted.png"/>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Dnv-wk-rfx" kind="custom" identifier="DeveloperSegue" customClass="SSCustomTabBarSegue" id="oXD-12-LbG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ixY-y9-Xft">
+                                        <rect key="frame" x="21" y="215" width="46" height="56"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" image="heart.png">
+                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" image="heart_highlighted.png"/>
+                                        <state key="highlighted">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="53f-CT-0Kd" kind="custom" identifier="DesignerSegue" customClass="SSCustomTabBarSegue" id="LKp-MC-jvl"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </view>
+                            <view contentMode="scaleToFill" id="raU-6m-2I7" userLabel="Placeholder">
+                                <rect key="frame" x="88" y="0.0" width="936" height="748"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="button_separator.png" id="O5j-tB-VEC">
+                                <rect key="frame" x="3.5" y="102" width="81" height="6"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="button_separator.png" id="OVG-AX-CSS">
+                                <rect key="frame" x="3.5" y="192" width="81" height="6"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="button_separator.png" id="PTU-zB-JgO">
+                                <rect key="frame" x="3.5" y="282" width="81" height="6"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="buttons" destination="6zZ-OD-8w8" id="H8L-Me-qal"/>
+                        <outlet property="placeholder" destination="raU-6m-2I7" id="P3K-xg-Ddd"/>
+                        <outlet property="view" destination="5" id="rgJ-cB-bm0"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-1046" y="-73"/>
+        </scene>
+        <!--Custom Tab View Controller-->
+        <scene sceneID="YSe-9R-wMO">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W7g-DE-eOe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="" autoresizesArchivedViewToFullSize="NO" id="eRX-Ra-QoM" customClass="SSCustomTabViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jJy-8b-AL7">
+                        <rect key="frame" x="0.0" y="20" width="936" height="748"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="home_image.png" id="Y4B-4s-BSK">
+                                <rect key="frame" x="0.0" y="0.0" width="936" height="748"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="434" y="-1029"/>
+        </scene>
+        <!--Custom Tab View Controller-->
+        <scene sceneID="ngC-Zh-VyI">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fc2-Hj-Wpq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="" autoresizesArchivedViewToFullSize="NO" id="53f-CT-0Kd" customClass="SSCustomTabViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lvw-55-Yer">
+                        <rect key="frame" x="0.0" y="20" width="936" height="748"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="designer_image.png" id="Rmu-Qm-8Km">
+                                <rect key="frame" x="0.0" y="0.0" width="936" height="748"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="434" y="947"/>
+        </scene>
+        <!--Custom Tab View Controller-->
+        <scene sceneID="ZUh-Zu-ZXs">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HZp-nd-aXw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="" autoresizesArchivedViewToFullSize="NO" id="Dnv-wk-rfx" customClass="SSCustomTabViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QB8-i4-0QP">
+                        <rect key="frame" x="0.0" y="20" width="936" height="748"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="developer_image.png" id="Mzl-pB-dSc">
+                                <rect key="frame" x="0.0" y="0.0" width="936" height="748"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="434" y="-57"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background.png" width="88" height="748"/>
+        <image name="button_separator.png" width="81" height="6"/>
+        <image name="cogs.png" width="46" height="56"/>
+        <image name="cogs_highlighted.png" width="46" height="56"/>
+        <image name="designer_image.png" width="936" height="748"/>
+        <image name="developer_image.png" width="936" height="748"/>
+        <image name="heart.png" width="46" height="56"/>
+        <image name="heart_highlighted.png" width="46" height="56"/>
+        <image name="home.png" width="46" height="56"/>
+        <image name="home_highlighted.png" width="46" height="56"/>
+        <image name="home_image.png" width="936" height="748"/>
+    </resources>
+    <classes>
+        <class className="SSCustomTabBarViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SSCustomTabBarViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="buttons" candidateClass="UIView"/>
+                <relationship kind="outlet" name="placeholder" candidateClass="UIView"/>
+            </relationships>
+        </class>
+        <class className="SSCustomTabViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SSCustomTabViewController.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation" orientation="landscapeRight"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

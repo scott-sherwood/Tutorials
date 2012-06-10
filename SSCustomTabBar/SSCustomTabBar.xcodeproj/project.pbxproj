@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D204B5BA1584DAAD00C02829 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D20AB6C11584D98F005DF729 /* InfoPlist.strings */; };
+		D204B5BC1584DAE600C02829 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D204B5BB1584DAE600C02829 /* main.m */; };
+		D20AB6891584D904005DF729 /* SSCustomTabBarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D20AB6811584D904005DF729 /* SSCustomTabBarAppDelegate.m */; };
+		D20AB68A1584D904005DF729 /* SSCustomTabBarSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = D20AB6831584D904005DF729 /* SSCustomTabBarSegue.m */; };
+		D20AB68B1584D904005DF729 /* SSCustomTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D20AB6851584D904005DF729 /* SSCustomTabBarViewController.m */; };
+		D20AB68C1584D904005DF729 /* SSCustomTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D20AB6871584D904005DF729 /* SSCustomTabViewController.m */; };
+		D20AB6A71584D933005DF729 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB68E1584D933005DF729 /* background.png */; };
+		D20AB6A81584D933005DF729 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB68F1584D933005DF729 /* background@2x.png */; };
+		D20AB6A91584D933005DF729 /* button_separator.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB6901584D933005DF729 /* button_separator.png */; };
+		D20AB6AA1584D933005DF729 /* button_separator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB6911584D933005DF729 /* button_separator@2x.png */; };
+		D20AB6AB1584D933005DF729 /* cogs_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB6921584D933005DF729 /* cogs_highlighted.png */; };
+		D20AB6AC1584D933005DF729 /* cogs_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB6931584D933005DF729 /* cogs_highlighted@2x.png */; };
+		D20AB6AD1584D933005DF729 /* cogs.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB6941584D933005DF729 /* cogs.png */; };
+		D20AB6AE1584D933005DF729 /* cogs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB6951584D933005DF729 /* cogs@2x.png */; };
+		D20AB6AF1584D933005DF729 /* designer_image.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB6961584D933005DF729 /* designer_image.png */; };
+		D20AB6B01584D933005DF729 /* designer_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB6971584D933005DF729 /* designer_image@2x.png */; };
+		D20AB6B11584D933005DF729 /* developer_image.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB6981584D933005DF729 /* developer_image.png */; };
+		D20AB6B21584D933005DF729 /* developer_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB6991584D933005DF729 /* developer_image@2x.png */; };
+		D20AB6B31584D933005DF729 /* heart_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB69A1584D933005DF729 /* heart_highlighted.png */; };
+		D20AB6B41584D933005DF729 /* heart_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB69B1584D933005DF729 /* heart_highlighted@2x.png */; };
+		D20AB6B51584D933005DF729 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB69C1584D933005DF729 /* heart.png */; };
+		D20AB6B61584D933005DF729 /* heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB69D1584D933005DF729 /* heart@2x.png */; };
+		D20AB6B71584D933005DF729 /* home_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB69E1584D933005DF729 /* home_highlighted.png */; };
+		D20AB6B81584D933005DF729 /* home_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB69F1584D933005DF729 /* home_highlighted@2x.png */; };
+		D20AB6B91584D933005DF729 /* home_image.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB6A01584D933005DF729 /* home_image.png */; };
+		D20AB6BA1584D933005DF729 /* home_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB6A11584D933005DF729 /* home_image@2x.png */; };
+		D20AB6BB1584D933005DF729 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB6A21584D933005DF729 /* home.png */; };
+		D20AB6BC1584D933005DF729 /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB6A31584D933005DF729 /* home@2x.png */; };
+		D20AB6BE1584D933005DF729 /* selected_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB6A51584D933005DF729 /* selected_arrow.png */; };
+		D20AB6BF1584D933005DF729 /* selected_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB6A61584D933005DF729 /* selected_arrow@2x.png */; };
+		D20AB6C61584D98F005DF729 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D20AB6C31584D98F005DF729 /* MainStoryboard.storyboard */; };
+		D26EA5F9152A603900B20D49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26EA5F8152A603900B20D49 /* UIKit.framework */; };
+		D26EA5FB152A603900B20D49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26EA5FA152A603900B20D49 /* Foundation.framework */; };
+		D26EA5FD152A603900B20D49 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26EA5FC152A603900B20D49 /* CoreGraphics.framework */; };
+		D26EA60C152A603900B20D49 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26EA60A152A603900B20D49 /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D204B5BB1584DAE600C02829 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		D20AB67E1584D904005DF729 /* SSCustomTabBar-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SSCustomTabBar-Info.plist"; path = "SSCustomTabBar/SSCustomTabBar-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D20AB67F1584D904005DF729 /* SSCustomTabBar-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SSCustomTabBar-Prefix.pch"; path = "SSCustomTabBar/SSCustomTabBar-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		D20AB6801584D904005DF729 /* SSCustomTabBarAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSCustomTabBarAppDelegate.h; path = SSCustomTabBar/SSCustomTabBarAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		D20AB6811584D904005DF729 /* SSCustomTabBarAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSCustomTabBarAppDelegate.m; path = SSCustomTabBar/SSCustomTabBarAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		D20AB6821584D904005DF729 /* SSCustomTabBarSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSCustomTabBarSegue.h; path = SSCustomTabBar/SSCustomTabBarSegue.h; sourceTree = SOURCE_ROOT; };
+		D20AB6831584D904005DF729 /* SSCustomTabBarSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSCustomTabBarSegue.m; path = SSCustomTabBar/SSCustomTabBarSegue.m; sourceTree = SOURCE_ROOT; };
+		D20AB6841584D904005DF729 /* SSCustomTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSCustomTabBarViewController.h; path = SSCustomTabBar/SSCustomTabBarViewController.h; sourceTree = SOURCE_ROOT; };
+		D20AB6851584D904005DF729 /* SSCustomTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSCustomTabBarViewController.m; path = SSCustomTabBar/SSCustomTabBarViewController.m; sourceTree = SOURCE_ROOT; };
+		D20AB6861584D904005DF729 /* SSCustomTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSCustomTabViewController.h; path = SSCustomTabBar/SSCustomTabViewController.h; sourceTree = SOURCE_ROOT; };
+		D20AB6871584D904005DF729 /* SSCustomTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSCustomTabViewController.m; path = SSCustomTabBar/SSCustomTabViewController.m; sourceTree = SOURCE_ROOT; };
+		D20AB68E1584D933005DF729 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = SSCustomTabBar/background.png; sourceTree = SOURCE_ROOT; };
+		D20AB68F1584D933005DF729 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@2x.png"; path = "SSCustomTabBar/background@2x.png"; sourceTree = SOURCE_ROOT; };
+		D20AB6901584D933005DF729 /* button_separator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_separator.png; path = SSCustomTabBar/button_separator.png; sourceTree = SOURCE_ROOT; };
+		D20AB6911584D933005DF729 /* button_separator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button_separator@2x.png"; path = "SSCustomTabBar/button_separator@2x.png"; sourceTree = SOURCE_ROOT; };
+		D20AB6921584D933005DF729 /* cogs_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cogs_highlighted.png; path = SSCustomTabBar/cogs_highlighted.png; sourceTree = SOURCE_ROOT; };
+		D20AB6931584D933005DF729 /* cogs_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cogs_highlighted@2x.png"; path = "SSCustomTabBar/cogs_highlighted@2x.png"; sourceTree = SOURCE_ROOT; };
+		D20AB6941584D933005DF729 /* cogs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cogs.png; path = SSCustomTabBar/cogs.png; sourceTree = SOURCE_ROOT; };
+		D20AB6951584D933005DF729 /* cogs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cogs@2x.png"; path = "SSCustomTabBar/cogs@2x.png"; sourceTree = SOURCE_ROOT; };
+		D20AB6961584D933005DF729 /* designer_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = designer_image.png; path = SSCustomTabBar/designer_image.png; sourceTree = SOURCE_ROOT; };
+		D20AB6971584D933005DF729 /* designer_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "designer_image@2x.png"; path = "SSCustomTabBar/designer_image@2x.png"; sourceTree = SOURCE_ROOT; };
+		D20AB6981584D933005DF729 /* developer_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = developer_image.png; path = SSCustomTabBar/developer_image.png; sourceTree = SOURCE_ROOT; };
+		D20AB6991584D933005DF729 /* developer_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "developer_image@2x.png"; path = "SSCustomTabBar/developer_image@2x.png"; sourceTree = SOURCE_ROOT; };
+		D20AB69A1584D933005DF729 /* heart_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heart_highlighted.png; path = SSCustomTabBar/heart_highlighted.png; sourceTree = SOURCE_ROOT; };
+		D20AB69B1584D933005DF729 /* heart_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "heart_highlighted@2x.png"; path = "SSCustomTabBar/heart_highlighted@2x.png"; sourceTree = SOURCE_ROOT; };
+		D20AB69C1584D933005DF729 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = heart.png; path = SSCustomTabBar/heart.png; sourceTree = SOURCE_ROOT; };
+		D20AB69D1584D933005DF729 /* heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "heart@2x.png"; path = "SSCustomTabBar/heart@2x.png"; sourceTree = SOURCE_ROOT; };
+		D20AB69E1584D933005DF729 /* home_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home_highlighted.png; path = SSCustomTabBar/home_highlighted.png; sourceTree = SOURCE_ROOT; };
+		D20AB69F1584D933005DF729 /* home_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "home_highlighted@2x.png"; path = "SSCustomTabBar/home_highlighted@2x.png"; sourceTree = SOURCE_ROOT; };
+		D20AB6A01584D933005DF729 /* home_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home_image.png; path = SSCustomTabBar/home_image.png; sourceTree = SOURCE_ROOT; };
+		D20AB6A11584D933005DF729 /* home_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "home_image@2x.png"; path = "SSCustomTabBar/home_image@2x.png"; sourceTree = SOURCE_ROOT; };
+		D20AB6A21584D933005DF729 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = SSCustomTabBar/home.png; sourceTree = SOURCE_ROOT; };
+		D20AB6A31584D933005DF729 /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "home@2x.png"; path = "SSCustomTabBar/home@2x.png"; sourceTree = SOURCE_ROOT; };
+		D20AB6A51584D933005DF729 /* selected_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = selected_arrow.png; path = SSCustomTabBar/selected_arrow.png; sourceTree = SOURCE_ROOT; };
+		D20AB6A61584D933005DF729 /* selected_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "selected_arrow@2x.png"; path = "SSCustomTabBar/selected_arrow@2x.png"; sourceTree = SOURCE_ROOT; };
+		D20AB6C21584D98F005DF729 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = SSCustomTabBar/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		D20AB6C41584D98F005DF729 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = SSCustomTabBar/en.lproj/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
+		D26EA5F4152A603900B20D49 /* SSCustomTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSCustomTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26EA5F8152A603900B20D49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D26EA5FA152A603900B20D49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D26EA5FC152A603900B20D49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D26EA5F1152A603900B20D49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26EA5F9152A603900B20D49 /* UIKit.framework in Frameworks */,
+				D26EA5FB152A603900B20D49 /* Foundation.framework in Frameworks */,
+				D26EA5FD152A603900B20D49 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D26EA5E9152A603900B20D49 = {
+			isa = PBXGroup;
+			children = (
+				D26EA5FE152A603900B20D49 /* SSCustomTabBar */,
+				D26EA5F7152A603900B20D49 /* Frameworks */,
+				D26EA5F5152A603900B20D49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D26EA5F5152A603900B20D49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D26EA5F4152A603900B20D49 /* SSCustomTabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D26EA5F7152A603900B20D49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D26EA5F8152A603900B20D49 /* UIKit.framework */,
+				D26EA5FA152A603900B20D49 /* Foundation.framework */,
+				D26EA5FC152A603900B20D49 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D26EA5FE152A603900B20D49 /* SSCustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D26EA645152A620800B20D49 /* Images */,
+				D20AB6801584D904005DF729 /* SSCustomTabBarAppDelegate.h */,
+				D20AB6811584D904005DF729 /* SSCustomTabBarAppDelegate.m */,
+				D20AB6821584D904005DF729 /* SSCustomTabBarSegue.h */,
+				D20AB6831584D904005DF729 /* SSCustomTabBarSegue.m */,
+				D20AB6841584D904005DF729 /* SSCustomTabBarViewController.h */,
+				D20AB6851584D904005DF729 /* SSCustomTabBarViewController.m */,
+				D20AB6861584D904005DF729 /* SSCustomTabViewController.h */,
+				D20AB6871584D904005DF729 /* SSCustomTabViewController.m */,
+				D20AB6C31584D98F005DF729 /* MainStoryboard.storyboard */,
+				D26EA5FF152A603900B20D49 /* Supporting Files */,
+			);
+			name = SSCustomTabBar;
+			path = CustomTabBarExample;
+			sourceTree = "<group>";
+		};
+		D26EA5FF152A603900B20D49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D20AB67E1584D904005DF729 /* SSCustomTabBar-Info.plist */,
+				D20AB67F1584D904005DF729 /* SSCustomTabBar-Prefix.pch */,
+				D20AB6C11584D98F005DF729 /* InfoPlist.strings */,
+				D204B5BB1584DAE600C02829 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D26EA645152A620800B20D49 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D20AB68E1584D933005DF729 /* background.png */,
+				D20AB68F1584D933005DF729 /* background@2x.png */,
+				D20AB6901584D933005DF729 /* button_separator.png */,
+				D20AB6911584D933005DF729 /* button_separator@2x.png */,
+				D20AB6921584D933005DF729 /* cogs_highlighted.png */,
+				D20AB6931584D933005DF729 /* cogs_highlighted@2x.png */,
+				D20AB6941584D933005DF729 /* cogs.png */,
+				D20AB6951584D933005DF729 /* cogs@2x.png */,
+				D20AB6961584D933005DF729 /* designer_image.png */,
+				D20AB6971584D933005DF729 /* designer_image@2x.png */,
+				D20AB6981584D933005DF729 /* developer_image.png */,
+				D20AB6991584D933005DF729 /* developer_image@2x.png */,
+				D20AB69A1584D933005DF729 /* heart_highlighted.png */,
+				D20AB69B1584D933005DF729 /* heart_highlighted@2x.png */,
+				D20AB69C1584D933005DF729 /* heart.png */,
+				D20AB69D1584D933005DF729 /* heart@2x.png */,
+				D20AB69E1584D933005DF729 /* home_highlighted.png */,
+				D20AB69F1584D933005DF729 /* home_highlighted@2x.png */,
+				D20AB6A01584D933005DF729 /* home_image.png */,
+				D20AB6A11584D933005DF729 /* home_image@2x.png */,
+				D20AB6A21584D933005DF729 /* home.png */,
+				D20AB6A31584D933005DF729 /* home@2x.png */,
+				D20AB6A51584D933005DF729 /* selected_arrow.png */,
+				D20AB6A61584D933005DF729 /* selected_arrow@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D26EA5F3152A603900B20D49 /* SSCustomTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D26EA612152A603900B20D49 /* Build configuration list for PBXNativeTarget "SSCustomTabBar" */;
+			buildPhases = (
+				D26EA5F0152A603900B20D49 /* Sources */,
+				D26EA5F1152A603900B20D49 /* Frameworks */,
+				D26EA5F2152A603900B20D49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSCustomTabBar;
+			productName = CustomTabBarExample;
+			productReference = D26EA5F4152A603900B20D49 /* SSCustomTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D26EA5EB152A603900B20D49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CustomTabBar;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Scott Sherwood";
+			};
+			buildConfigurationList = D26EA5EE152A603900B20D49 /* Build configuration list for PBXProject "SSCustomTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D26EA5E9152A603900B20D49;
+			productRefGroup = D26EA5F5152A603900B20D49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D26EA5F3152A603900B20D49 /* SSCustomTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D26EA5F2152A603900B20D49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26EA60C152A603900B20D49 /* MainStoryboard.storyboard in Resources */,
+				D20AB6A71584D933005DF729 /* background.png in Resources */,
+				D20AB6A81584D933005DF729 /* background@2x.png in Resources */,
+				D20AB6A91584D933005DF729 /* button_separator.png in Resources */,
+				D20AB6AA1584D933005DF729 /* button_separator@2x.png in Resources */,
+				D20AB6AB1584D933005DF729 /* cogs_highlighted.png in Resources */,
+				D20AB6AC1584D933005DF729 /* cogs_highlighted@2x.png in Resources */,
+				D20AB6AD1584D933005DF729 /* cogs.png in Resources */,
+				D20AB6AE1584D933005DF729 /* cogs@2x.png in Resources */,
+				D20AB6AF1584D933005DF729 /* designer_image.png in Resources */,
+				D20AB6B01584D933005DF729 /* designer_image@2x.png in Resources */,
+				D20AB6B11584D933005DF729 /* developer_image.png in Resources */,
+				D20AB6B21584D933005DF729 /* developer_image@2x.png in Resources */,
+				D20AB6B31584D933005DF729 /* heart_highlighted.png in Resources */,
+				D20AB6B41584D933005DF729 /* heart_highlighted@2x.png in Resources */,
+				D20AB6B51584D933005DF729 /* heart.png in Resources */,
+				D20AB6B61584D933005DF729 /* heart@2x.png in Resources */,
+				D20AB6B71584D933005DF729 /* home_highlighted.png in Resources */,
+				D20AB6B81584D933005DF729 /* home_highlighted@2x.png in Resources */,
+				D20AB6B91584D933005DF729 /* home_image.png in Resources */,
+				D20AB6BA1584D933005DF729 /* home_image@2x.png in Resources */,
+				D20AB6BB1584D933005DF729 /* home.png in Resources */,
+				D20AB6BC1584D933005DF729 /* home@2x.png in Resources */,
+				D20AB6BE1584D933005DF729 /* selected_arrow.png in Resources */,
+				D20AB6BF1584D933005DF729 /* selected_arrow@2x.png in Resources */,
+				D20AB6C61584D98F005DF729 /* MainStoryboard.storyboard in Resources */,
+				D204B5BA1584DAAD00C02829 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D26EA5F0152A603900B20D49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20AB6891584D904005DF729 /* SSCustomTabBarAppDelegate.m in Sources */,
+				D20AB68A1584D904005DF729 /* SSCustomTabBarSegue.m in Sources */,
+				D20AB68B1584D904005DF729 /* SSCustomTabBarViewController.m in Sources */,
+				D20AB68C1584D904005DF729 /* SSCustomTabViewController.m in Sources */,
+				D204B5BC1584DAE600C02829 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D20AB6C11584D98F005DF729 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D20AB6C21584D98F005DF729 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D20AB6C31584D98F005DF729 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D20AB6C41584D98F005DF729 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		D26EA60A152A603900B20D49 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+			);
+			name = MainStoryboard.storyboard;
+			path = "/Users/scott/Developement/Scott-Sherwood/Tutorials/SSCustomTabBar/CustomTabBarExample";
+			sourceTree = "<absolute>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D26EA610152A603900B20D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D26EA611152A603900B20D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D26EA613152A603900B20D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSCustomTabBar/SSCustomTabBar-Prefix.pch";
+				INFOPLIST_FILE = "SSCustomTabBar/SSCustomTabBar-Info.plist";
+				PRODUCT_NAME = SSCustomTabBar;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D26EA614152A603900B20D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSCustomTabBar/SSCustomTabBar-Prefix.pch";
+				INFOPLIST_FILE = "SSCustomTabBar/SSCustomTabBar-Info.plist";
+				PRODUCT_NAME = SSCustomTabBar;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D26EA5EE152A603900B20D49 /* Build configuration list for PBXProject "SSCustomTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26EA610152A603900B20D49 /* Debug */,
+				D26EA611152A603900B20D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D26EA612152A603900B20D49 /* Build configuration list for PBXNativeTarget "SSCustomTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26EA613152A603900B20D49 /* Debug */,
+				D26EA614152A603900B20D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D26EA5EB152A603900B20D49 /* Project object */;
+}

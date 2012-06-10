@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2BEC76014757E3A001EDEBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2BEC75F14757E3A001EDEBE /* UIKit.framework */; };
+		D2BEC76214757E3A001EDEBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2BEC76114757E3A001EDEBE /* Foundation.framework */; };
+		D2BEC76414757E3A001EDEBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2BEC76314757E3A001EDEBE /* CoreGraphics.framework */; };
+		D2BEC77314757E3A001EDEBE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2BEC77114757E3A001EDEBE /* MainStoryboard.storyboard */; };
+		D2D03C071584C94300D92E06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D03BFA1584C94300D92E06 /* main.m */; };
+		D2D03C081584C94300D92E06 /* NewTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D03BFC1584C94300D92E06 /* NewTaskViewController.m */; };
+		D2D03C091584C94300D92E06 /* SimplePost.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D03BFE1584C94300D92E06 /* SimplePost.m */; };
+		D2D03C0A1584C94300D92E06 /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D03C001584C94300D92E06 /* SSAppDelegate.m */; };
+		D2D03C0B1584C94300D92E06 /* SSTasks-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2D03C011584C94300D92E06 /* SSTasks-Info.plist */; };
+		D2D03C0C1584C94300D92E06 /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D03C041584C94300D92E06 /* SSViewController.m */; };
+		D2D03C0D1584C94300D92E06 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D03C061584C94300D92E06 /* Task.m */; };
+		D2D03C101584C95100D92E06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2D03C0E1584C95100D92E06 /* InfoPlist.strings */; };
+		D2D03C111584C95100D92E06 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2BEC77114757E3A001EDEBE /* MainStoryboard.storyboard */; };
+		D2D03C151584C9A900D92E06 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D03C131584C9A900D92E06 /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2BEC75B14757E3A001EDEBE /* SSTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2BEC75F14757E3A001EDEBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D2BEC76114757E3A001EDEBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2BEC76314757E3A001EDEBE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D2D03BFA1584C94300D92E06 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SSTasks/main.m; sourceTree = SOURCE_ROOT; };
+		D2D03BFB1584C94300D92E06 /* NewTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewTaskViewController.h; path = SSTasks/NewTaskViewController.h; sourceTree = SOURCE_ROOT; };
+		D2D03BFC1584C94300D92E06 /* NewTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewTaskViewController.m; path = SSTasks/NewTaskViewController.m; sourceTree = SOURCE_ROOT; };
+		D2D03BFD1584C94300D92E06 /* SimplePost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimplePost.h; path = SSTasks/SimplePost.h; sourceTree = SOURCE_ROOT; };
+		D2D03BFE1584C94300D92E06 /* SimplePost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimplePost.m; path = SSTasks/SimplePost.m; sourceTree = SOURCE_ROOT; };
+		D2D03BFF1584C94300D92E06 /* SSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSAppDelegate.h; path = SSTasks/SSAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		D2D03C001584C94300D92E06 /* SSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSAppDelegate.m; path = SSTasks/SSAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		D2D03C011584C94300D92E06 /* SSTasks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SSTasks-Info.plist"; path = "SSTasks/SSTasks-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D2D03C021584C94300D92E06 /* SSTasks-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SSTasks-Prefix.pch"; path = "SSTasks/SSTasks-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		D2D03C031584C94300D92E06 /* SSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSViewController.h; path = SSTasks/SSViewController.h; sourceTree = SOURCE_ROOT; };
+		D2D03C041584C94300D92E06 /* SSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSViewController.m; path = SSTasks/SSViewController.m; sourceTree = SOURCE_ROOT; };
+		D2D03C051584C94300D92E06 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Task.h; path = SSTasks/Task.h; sourceTree = SOURCE_ROOT; };
+		D2D03C061584C94300D92E06 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Task.m; path = SSTasks/Task.m; sourceTree = SOURCE_ROOT; };
+		D2D03C0F1584C95100D92E06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = SSTasks/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		D2D03C141584C9A900D92E06 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = SSTasks/en.lproj/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2BEC75814757E3A001EDEBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BEC76414757E3A001EDEBE /* CoreGraphics.framework in Frameworks */,
+				D2BEC76014757E3A001EDEBE /* UIKit.framework in Frameworks */,
+				D2BEC76214757E3A001EDEBE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2BEC75014757E3A001EDEBE = {
+			isa = PBXGroup;
+			children = (
+				D2BEC76514757E3A001EDEBE /* SSTasks */,
+				D2BEC75E14757E3A001EDEBE /* Frameworks */,
+				D2BEC75C14757E3A001EDEBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2BEC75C14757E3A001EDEBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2BEC75B14757E3A001EDEBE /* SSTasks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2BEC75E14757E3A001EDEBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2BEC75F14757E3A001EDEBE /* UIKit.framework */,
+				D2BEC76114757E3A001EDEBE /* Foundation.framework */,
+				D2BEC76314757E3A001EDEBE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2BEC76514757E3A001EDEBE /* SSTasks */ = {
+			isa = PBXGroup;
+			children = (
+				D2D03BFD1584C94300D92E06 /* SimplePost.h */,
+				D2D03BFE1584C94300D92E06 /* SimplePost.m */,
+				D2D03BFF1584C94300D92E06 /* SSAppDelegate.h */,
+				D2D03C001584C94300D92E06 /* SSAppDelegate.m */,
+				D2D03C031584C94300D92E06 /* SSViewController.h */,
+				D2D03C131584C9A900D92E06 /* MainStoryboard.storyboard */,
+				D2D03C041584C94300D92E06 /* SSViewController.m */,
+				D2BEC76614757E3A001EDEBE /* Supporting Files */,
+				D2D03C051584C94300D92E06 /* Task.h */,
+				D2D03C061584C94300D92E06 /* Task.m */,
+				D2D03BFB1584C94300D92E06 /* NewTaskViewController.h */,
+				D2D03BFC1584C94300D92E06 /* NewTaskViewController.m */,
+			);
+			name = SSTasks;
+			path = MyTasks;
+			sourceTree = "<group>";
+		};
+		D2BEC76614757E3A001EDEBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2D03C011584C94300D92E06 /* SSTasks-Info.plist */,
+				D2D03C0E1584C95100D92E06 /* InfoPlist.strings */,
+				D2D03BFA1584C94300D92E06 /* main.m */,
+				D2D03C021584C94300D92E06 /* SSTasks-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2BEC75A14757E3A001EDEBE /* SSTasks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2BEC77914757E3A001EDEBE /* Build configuration list for PBXNativeTarget "SSTasks" */;
+			buildPhases = (
+				D2BEC75714757E3A001EDEBE /* Sources */,
+				D2BEC75814757E3A001EDEBE /* Frameworks */,
+				D2BEC75914757E3A001EDEBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSTasks;
+			productName = MyTasks;
+			productReference = D2BEC75B14757E3A001EDEBE /* SSTasks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2BEC75214757E3A001EDEBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Scott Sherwood";
+			};
+			buildConfigurationList = D2BEC75514757E3A001EDEBE /* Build configuration list for PBXProject "SSTasks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D2BEC75014757E3A001EDEBE;
+			productRefGroup = D2BEC75C14757E3A001EDEBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2BEC75A14757E3A001EDEBE /* SSTasks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2BEC75914757E3A001EDEBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BEC77314757E3A001EDEBE /* MainStoryboard.storyboard in Resources */,
+				D2D03C0B1584C94300D92E06 /* SSTasks-Info.plist in Resources */,
+				D2D03C101584C95100D92E06 /* InfoPlist.strings in Resources */,
+				D2D03C111584C95100D92E06 /* MainStoryboard.storyboard in Resources */,
+				D2D03C151584C9A900D92E06 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2BEC75714757E3A001EDEBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D03C071584C94300D92E06 /* main.m in Sources */,
+				D2D03C081584C94300D92E06 /* NewTaskViewController.m in Sources */,
+				D2D03C091584C94300D92E06 /* SimplePost.m in Sources */,
+				D2D03C0A1584C94300D92E06 /* SSAppDelegate.m in Sources */,
+				D2D03C0C1584C94300D92E06 /* SSViewController.m in Sources */,
+				D2D03C0D1584C94300D92E06 /* Task.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2BEC77114757E3A001EDEBE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+			);
+			name = MainStoryboard.storyboard;
+			path = "/Users/scott/Developement/Scott-Sherwood/Tutorials/SSTasks/MyTasks";
+			sourceTree = "<absolute>";
+		};
+		D2D03C0E1584C95100D92E06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2D03C0F1584C95100D92E06 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D2D03C131584C9A900D92E06 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2D03C141584C9A900D92E06 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2BEC77714757E3A001EDEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2BEC77814757E3A001EDEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2BEC77A14757E3A001EDEBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSTasks/SSTasks-Prefix.pch";
+				INFOPLIST_FILE = "SSTasks/SSTasks-Info.plist";
+				PRODUCT_NAME = SSTasks;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D2BEC77B14757E3A001EDEBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSTasks/SSTasks-Prefix.pch";
+				INFOPLIST_FILE = "SSTasks/SSTasks-Info.plist";
+				PRODUCT_NAME = SSTasks;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2BEC75514757E3A001EDEBE /* Build configuration list for PBXProject "SSTasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2BEC77714757E3A001EDEBE /* Debug */,
+				D2BEC77814757E3A001EDEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2BEC77914757E3A001EDEBE /* Build configuration list for PBXNativeTarget "SSTasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2BEC77A14757E3A001EDEBE /* Debug */,
+				D2BEC77B14757E3A001EDEBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2BEC75214757E3A001EDEBE /* Project object */;
+}

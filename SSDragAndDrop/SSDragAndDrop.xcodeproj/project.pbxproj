@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2386C711466BC7C0022EBD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2386C701466BC7C0022EBD6 /* UIKit.framework */; };
+		D2386C731466BC7C0022EBD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2386C721466BC7C0022EBD6 /* Foundation.framework */; };
+		D2386C751466BC7C0022EBD6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2386C741466BC7C0022EBD6 /* CoreGraphics.framework */; };
+		D2386C9A1466BDD20022EBD6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2386C991466BDD20022EBD6 /* QuartzCore.framework */; };
+		D2D03C4C1584CEF200D92E06 /* ChoicesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D03C3E1584CEF200D92E06 /* ChoicesTableViewController.m */; };
+		D2D03C4D1584CEF200D92E06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D03C3F1584CEF200D92E06 /* main.m */; };
+		D2D03C4E1584CEF200D92E06 /* SelectedChoicesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D03C411584CEF200D92E06 /* SelectedChoicesTableViewController.m */; };
+		D2D03C4F1584CEF200D92E06 /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D03C431584CEF200D92E06 /* SSAppDelegate.m */; };
+		D2D03C511584CEF200D92E06 /* SSDragAndDropTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D03C471584CEF200D92E06 /* SSDragAndDropTableViewController.m */; };
+		D2D03C521584CEF200D92E06 /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D03C4B1584CEF200D92E06 /* SSViewController.m */; };
+		D2D03C581584CF0500D92E06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2D03C541584CF0500D92E06 /* InfoPlist.strings */; };
+		D2D03C591584CF0500D92E06 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2D03C561584CF0500D92E06 /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2386C6C1466BC7C0022EBD6 /* SSDragAndDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSDragAndDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2386C701466BC7C0022EBD6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D2386C721466BC7C0022EBD6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2386C741466BC7C0022EBD6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D2386C991466BDD20022EBD6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D2D03C3D1584CEF200D92E06 /* ChoicesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChoicesTableViewController.h; path = SSDragAndDrop/ChoicesTableViewController.h; sourceTree = SOURCE_ROOT; };
+		D2D03C3E1584CEF200D92E06 /* ChoicesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChoicesTableViewController.m; path = SSDragAndDrop/ChoicesTableViewController.m; sourceTree = SOURCE_ROOT; };
+		D2D03C3F1584CEF200D92E06 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SSDragAndDrop/main.m; sourceTree = SOURCE_ROOT; };
+		D2D03C401584CEF200D92E06 /* SelectedChoicesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectedChoicesTableViewController.h; path = SSDragAndDrop/SelectedChoicesTableViewController.h; sourceTree = SOURCE_ROOT; };
+		D2D03C411584CEF200D92E06 /* SelectedChoicesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectedChoicesTableViewController.m; path = SSDragAndDrop/SelectedChoicesTableViewController.m; sourceTree = SOURCE_ROOT; };
+		D2D03C421584CEF200D92E06 /* SSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSAppDelegate.h; path = SSDragAndDrop/SSAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		D2D03C431584CEF200D92E06 /* SSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSAppDelegate.m; path = SSDragAndDrop/SSAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		D2D03C441584CEF200D92E06 /* SSDragAndDrop-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SSDragAndDrop-Info.plist"; path = "SSDragAndDrop/SSDragAndDrop-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D2D03C451584CEF200D92E06 /* SSDragAndDrop-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SSDragAndDrop-Prefix.pch"; path = "SSDragAndDrop/SSDragAndDrop-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		D2D03C461584CEF200D92E06 /* SSDragAndDropTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSDragAndDropTableViewController.h; path = SSDragAndDrop/SSDragAndDropTableViewController.h; sourceTree = SOURCE_ROOT; };
+		D2D03C471584CEF200D92E06 /* SSDragAndDropTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSDragAndDropTableViewController.m; path = SSDragAndDrop/SSDragAndDropTableViewController.m; sourceTree = SOURCE_ROOT; };
+		D2D03C481584CEF200D92E06 /* SSDraggableTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSDraggableTableViewDelegate.h; path = SSDragAndDrop/SSDraggableTableViewDelegate.h; sourceTree = SOURCE_ROOT; };
+		D2D03C491584CEF200D92E06 /* SSDropableTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSDropableTableViewDelegate.h; path = SSDragAndDrop/SSDropableTableViewDelegate.h; sourceTree = SOURCE_ROOT; };
+		D2D03C4A1584CEF200D92E06 /* SSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSViewController.h; path = SSDragAndDrop/SSViewController.h; sourceTree = SOURCE_ROOT; };
+		D2D03C4B1584CEF200D92E06 /* SSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSViewController.m; path = SSDragAndDrop/SSViewController.m; sourceTree = SOURCE_ROOT; };
+		D2D03C551584CF0500D92E06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = SSDragAndDrop/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		D2D03C571584CF0500D92E06 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = SSDragAndDrop/en.lproj/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2386C691466BC7C0022EBD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2386C9A1466BDD20022EBD6 /* QuartzCore.framework in Frameworks */,
+				D2386C711466BC7C0022EBD6 /* UIKit.framework in Frameworks */,
+				D2386C731466BC7C0022EBD6 /* Foundation.framework in Frameworks */,
+				D2386C751466BC7C0022EBD6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2386C611466BC7C0022EBD6 = {
+			isa = PBXGroup;
+			children = (
+				D2386C991466BDD20022EBD6 /* QuartzCore.framework */,
+				D2386C761466BC7C0022EBD6 /* SSDragAndDrop */,
+				D2386C6F1466BC7C0022EBD6 /* Frameworks */,
+				D2386C6D1466BC7C0022EBD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2386C6D1466BC7C0022EBD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2386C6C1466BC7C0022EBD6 /* SSDragAndDrop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2386C6F1466BC7C0022EBD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2386C701466BC7C0022EBD6 /* UIKit.framework */,
+				D2386C721466BC7C0022EBD6 /* Foundation.framework */,
+				D2386C741466BC7C0022EBD6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2386C761466BC7C0022EBD6 /* SSDragAndDrop */ = {
+			isa = PBXGroup;
+			children = (
+				D2D03C3D1584CEF200D92E06 /* ChoicesTableViewController.h */,
+				D2D03C3E1584CEF200D92E06 /* ChoicesTableViewController.m */,
+				D2D03C401584CEF200D92E06 /* SelectedChoicesTableViewController.h */,
+				D2D03C411584CEF200D92E06 /* SelectedChoicesTableViewController.m */,
+				D2D03C421584CEF200D92E06 /* SSAppDelegate.h */,
+				D2D03C431584CEF200D92E06 /* SSAppDelegate.m */,
+				D2D03C561584CF0500D92E06 /* MainStoryboard.storyboard */,
+				D2D03C4A1584CEF200D92E06 /* SSViewController.h */,
+				D2D03C4B1584CEF200D92E06 /* SSViewController.m */,
+				D2386C931466BCC80022EBD6 /* DragAndDrop */,
+				D2386C771466BC7C0022EBD6 /* Supporting Files */,
+			);
+			name = SSDragAndDrop;
+			path = DragAndDropTutorial;
+			sourceTree = "<group>";
+		};
+		D2386C771466BC7C0022EBD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2D03C441584CEF200D92E06 /* SSDragAndDrop-Info.plist */,
+				D2D03C541584CF0500D92E06 /* InfoPlist.strings */,
+				D2D03C3F1584CEF200D92E06 /* main.m */,
+				D2D03C451584CEF200D92E06 /* SSDragAndDrop-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2386C931466BCC80022EBD6 /* DragAndDrop */ = {
+			isa = PBXGroup;
+			children = (
+				D2D03C461584CEF200D92E06 /* SSDragAndDropTableViewController.h */,
+				D2D03C471584CEF200D92E06 /* SSDragAndDropTableViewController.m */,
+				D2D03C481584CEF200D92E06 /* SSDraggableTableViewDelegate.h */,
+				D2D03C491584CEF200D92E06 /* SSDropableTableViewDelegate.h */,
+			);
+			name = DragAndDrop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2386C6B1466BC7C0022EBD6 /* SSDragAndDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2386C8A1466BC7C0022EBD6 /* Build configuration list for PBXNativeTarget "SSDragAndDrop" */;
+			buildPhases = (
+				D2386C681466BC7C0022EBD6 /* Sources */,
+				D2386C691466BC7C0022EBD6 /* Frameworks */,
+				D2386C6A1466BC7C0022EBD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSDragAndDrop;
+			productName = DragAndDropTutorial;
+			productReference = D2386C6C1466BC7C0022EBD6 /* SSDragAndDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2386C631466BC7C0022EBD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Scott Sherwood";
+			};
+			buildConfigurationList = D2386C661466BC7C0022EBD6 /* Build configuration list for PBXProject "SSDragAndDrop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D2386C611466BC7C0022EBD6;
+			productRefGroup = D2386C6D1466BC7C0022EBD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2386C6B1466BC7C0022EBD6 /* SSDragAndDrop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2386C6A1466BC7C0022EBD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D03C581584CF0500D92E06 /* InfoPlist.strings in Resources */,
+				D2D03C591584CF0500D92E06 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2386C681466BC7C0022EBD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2D03C4C1584CEF200D92E06 /* ChoicesTableViewController.m in Sources */,
+				D2D03C4D1584CEF200D92E06 /* main.m in Sources */,
+				D2D03C4E1584CEF200D92E06 /* SelectedChoicesTableViewController.m in Sources */,
+				D2D03C4F1584CEF200D92E06 /* SSAppDelegate.m in Sources */,
+				D2D03C511584CEF200D92E06 /* SSDragAndDropTableViewController.m in Sources */,
+				D2D03C521584CEF200D92E06 /* SSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2D03C541584CF0500D92E06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2D03C551584CF0500D92E06 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D2D03C561584CF0500D92E06 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2D03C571584CF0500D92E06 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2386C881466BC7C0022EBD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D2386C891466BC7C0022EBD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2386C8B1466BC7C0022EBD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSDragAndDrop/SSDragAndDrop-Prefix.pch";
+				INFOPLIST_FILE = "SSDragAndDrop/SSDragAndDrop-Info.plist";
+				PRODUCT_NAME = SSDragAndDrop;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D2386C8C1466BC7C0022EBD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSDragAndDrop/SSDragAndDrop-Prefix.pch";
+				INFOPLIST_FILE = "SSDragAndDrop/SSDragAndDrop-Info.plist";
+				PRODUCT_NAME = SSDragAndDrop;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2386C661466BC7C0022EBD6 /* Build configuration list for PBXProject "SSDragAndDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2386C881466BC7C0022EBD6 /* Debug */,
+				D2386C891466BC7C0022EBD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2386C8A1466BC7C0022EBD6 /* Build configuration list for PBXNativeTarget "SSDragAndDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2386C8B1466BC7C0022EBD6 /* Debug */,
+				D2386C8C1466BC7C0022EBD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2386C631466BC7C0022EBD6 /* Project object */;
+}
