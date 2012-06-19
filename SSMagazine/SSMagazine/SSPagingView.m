@@ -71,7 +71,7 @@
 #pragma mark - UIScrollViewDelegate
 - (void)scrollViewDidScroll:(UIScrollView *)sender {
     
-    if([self.delegate respondsToSelector:@selector(pagingViewControllerPageChanged:)])
+    if([self.delegate respondsToSelector:@selector(pagingViewPageChanged:)])
         [self.delegate pagingViewPageChanged:self];
     
     [self reloadData];
