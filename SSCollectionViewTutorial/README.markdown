@@ -10,7 +10,7 @@ by Scott Sherwood
 
 
 <h2>What is SSCollectionView?</h2>
-  
+ 
 
 <h2>License</h2>
 SSCollection view is released under its own attribution license (which is included with the source code). You can also purchase a non-attribution license if you wish, by contacting me at scott@scott-sherwood.com. The idea of this tutorial is to give developers an overview of how to use the new UICollectionViewController available in iOS6.
