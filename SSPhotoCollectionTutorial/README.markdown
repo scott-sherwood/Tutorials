@@ -9,11 +9,11 @@ by Scott Sherwood
 </ul>
 
 
-<h2>What is SSPhotoCollection tutorial?</h2>
+<h2>What is SSiOSWidgets?</h2>
 
 
 <h2>License</h2>
-SSPhotoCollection is released under its own attribution license (which is included with the source code). You can also purchase a non-attribution license if you wish, by contacting me at scott@scott-sherwood.com
+SSGestures is released under its own attribution license (which is included with the source code). You can also purchase a non-attribution license if you wish, by contacting me at scott@scott-sherwood.com
 
 Support, bugs and feature requests
 There is absolutely no support offered with this tutorial. If you want to submit a feature request, please do so via the issue tracker on github.
