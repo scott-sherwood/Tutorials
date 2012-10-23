@@ -1,5 +1,6 @@
 <h2>Scott Sherwood Source Code License</h2> 
-Last updated: 24th October 2012
+Last updated: 26th May 2012
+
 <hr>
 Thanks for downloading some of my source code and or graphic work!
 
