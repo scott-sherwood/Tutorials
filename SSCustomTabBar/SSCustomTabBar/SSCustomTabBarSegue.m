@@ -21,6 +21,7 @@
     
         
     ctbcv.currentViewController = dst;
+    [ctbcv addChildViewController:dst];
     [ctbcv.placeholder addSubview:dst.view];
 }
 

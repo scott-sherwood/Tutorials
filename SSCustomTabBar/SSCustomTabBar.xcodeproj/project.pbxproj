@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D204B5BA1584DAAD00C02829 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D20AB6C11584D98F005DF729 /* InfoPlist.strings */; };
-		D204B5BC1584DAE600C02829 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D204B5BB1584DAE600C02829 /* main.m */; };
 		D20AB6891584D904005DF729 /* SSCustomTabBarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D20AB6811584D904005DF729 /* SSCustomTabBarAppDelegate.m */; };
 		D20AB68A1584D904005DF729 /* SSCustomTabBarSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = D20AB6831584D904005DF729 /* SSCustomTabBarSegue.m */; };
 		D20AB68B1584D904005DF729 /* SSCustomTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D20AB6851584D904005DF729 /* SSCustomTabBarViewController.m */; };
@@ -38,6 +37,7 @@
 		D20AB6BE1584D933005DF729 /* selected_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB6A51584D933005DF729 /* selected_arrow.png */; };
 		D20AB6BF1584D933005DF729 /* selected_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D20AB6A61584D933005DF729 /* selected_arrow@2x.png */; };
 		D20AB6C61584D98F005DF729 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D20AB6C31584D98F005DF729 /* MainStoryboard.storyboard */; };
+		D241B9F1163A050000677216 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D241B9F0163A050000677216 /* main.m */; };
 		D26EA5F9152A603900B20D49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26EA5F8152A603900B20D49 /* UIKit.framework */; };
 		D26EA5FB152A603900B20D49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26EA5FA152A603900B20D49 /* Foundation.framework */; };
 		D26EA5FD152A603900B20D49 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26EA5FC152A603900B20D49 /* CoreGraphics.framework */; };
@@ -45,7 +45,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D204B5BB1584DAE600C02829 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
 		D20AB67E1584D904005DF729 /* SSCustomTabBar-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SSCustomTabBar-Info.plist"; path = "SSCustomTabBar/SSCustomTabBar-Info.plist"; sourceTree = SOURCE_ROOT; };
 		D20AB67F1584D904005DF729 /* SSCustomTabBar-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SSCustomTabBar-Prefix.pch"; path = "SSCustomTabBar/SSCustomTabBar-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		D20AB6801584D904005DF729 /* SSCustomTabBarAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSCustomTabBarAppDelegate.h; path = SSCustomTabBar/SSCustomTabBarAppDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -82,6 +81,7 @@
 		D20AB6A61584D933005DF729 /* selected_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "selected_arrow@2x.png"; path = "SSCustomTabBar/selected_arrow@2x.png"; sourceTree = SOURCE_ROOT; };
 		D20AB6C21584D98F005DF729 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = SSCustomTabBar/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		D20AB6C41584D98F005DF729 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = SSCustomTabBar/en.lproj/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
+		D241B9F0163A050000677216 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SSCustomTabBar/main.m; sourceTree = SOURCE_ROOT; };
 		D26EA5F4152A603900B20D49 /* SSCustomTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSCustomTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26EA5F8152A603900B20D49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D26EA5FA152A603900B20D49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -132,6 +132,7 @@
 		D26EA5FE152A603900B20D49 /* SSCustomTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				D241B9F0163A050000677216 /* main.m */,
 				D26EA645152A620800B20D49 /* Images */,
 				D20AB6801584D904005DF729 /* SSCustomTabBarAppDelegate.h */,
 				D20AB6811584D904005DF729 /* SSCustomTabBarAppDelegate.m */,
@@ -154,7 +155,6 @@
 				D20AB67E1584D904005DF729 /* SSCustomTabBar-Info.plist */,
 				D20AB67F1584D904005DF729 /* SSCustomTabBar-Prefix.pch */,
 				D20AB6C11584D98F005DF729 /* InfoPlist.strings */,
-				D204B5BB1584DAE600C02829 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -283,7 +283,7 @@
 				D20AB68A1584D904005DF729 /* SSCustomTabBarSegue.m in Sources */,
 				D20AB68B1584D904005DF729 /* SSCustomTabBarViewController.m in Sources */,
 				D20AB68C1584D904005DF729 /* SSCustomTabViewController.m in Sources */,
-				D204B5BC1584DAE600C02829 /* main.m in Sources */,
+				D241B9F1163A050000677216 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,10 +367,12 @@
 		D26EA613152A603900B20D49 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Scott Sherwood (L9EZYH47RJ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SSCustomTabBar/SSCustomTabBar-Prefix.pch";
 				INFOPLIST_FILE = "SSCustomTabBar/SSCustomTabBar-Info.plist";
 				PRODUCT_NAME = SSCustomTabBar;
+				PROVISIONING_PROFILE = "1B29F803-78E0-4C54-AA28-D595B6447C62";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -378,10 +380,12 @@
 		D26EA614152A603900B20D49 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Scott Sherwood (L9EZYH47RJ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SSCustomTabBar/SSCustomTabBar-Prefix.pch";
 				INFOPLIST_FILE = "SSCustomTabBar/SSCustomTabBar-Info.plist";
 				PRODUCT_NAME = SSCustomTabBar;
+				PROVISIONING_PROFILE = "1B29F803-78E0-4C54-AA28-D595B6447C62";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
