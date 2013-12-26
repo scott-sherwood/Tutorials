@@ -1,0 +1,51 @@
+Idea
+
+No Toys
+The one, true app
+Simple but deep
+Funny theme and sample data
+Custom art and resources
+Avoid heavy prerequisites
+Submit idea
+
+Initializing the tracker
+Screen views
+	Manual Screen Measurements
+	Automatic Screeen Measurement
+
+Advanced Configuration
+	Setting and Sending Data
+	Applying Values to Multiple Hits
+	Multiple Trackers
+	Default Tracker
+	Sampling Rate - Avoiding Inconsistencies
+	Opting Out
+	Testing and Debugging
+
+Measuring Events
+
+
+How to track your app with Google Anyalitics.
+
+http://www.youtube.com/watch?v=NBNjm9s9oHs
+
+
+http://www.slideshare.net/akozlik/how-to-add-google-analytics-to-ios
+
+https://developers.google.com/analytics/solutions/articles/hello-analytics-api
+
+
+AFNetorking Weather Example Extended
+Dribbble application anylising popularity of dribbble shots.
+
+
+
+Using Google Analytics in an iOS App
+
+Hi Scott,
+
+Yes, this tutorial is still available - it's all yours! As usual, the first step is to write an outline: http://www.raywenderlich.com/tutorial-team#phase1
+
+Cosmin, can you please track this and assign a FPE?
+
+Thanks,
